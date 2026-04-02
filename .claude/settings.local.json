@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ':*)",
+      "mcp__claude_ai_Supabase__list_projects",
+      "mcp__claude_ai_Supabase__apply_migration",
+      "mcp__claude_ai_Supabase__get_project_url",
+      "mcp__claude_ai_Supabase__get_publishable_keys",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Read(//c/Projetos Webapp Febrate/**)",
+      "Bash(npx create-next-app@latest re-med-app --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(cp:*)",
+      "Bash(npm install:*)",
+      "Bash(python scripts/seed_data.py)",
+      "mcp__claude_ai_Supabase__execute_sql",
+      "mcp__heroui-react__get_docs",
+      "mcp__heroui-react__list_components",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/simulador)",
+      "mcp__claude_ai_Supabase__list_tables",
+      "Bash(npx next:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/simulador)",
+      "mcp__playwright__browser_navigate",
+      "Bash(curl -s http://localhost:3000/simulador)",
+      "mcp__playwright__browser_run_code",
+      "Bash(powershell -Command \"Invoke-WebRequest -Uri 'http://localhost:3000/simulador' -UseBasicParsing | Select-Object -ExpandProperty Content\")",
+      "mcp__playwright__browser_tabs",
+      "Bash(powershell:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_fill_form",
+      "mcp__playwright__browser_wait_for"
+    ]
+  }
+}

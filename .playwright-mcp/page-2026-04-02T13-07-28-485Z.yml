@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e5]
+        - generic [ref=e7]:
+          - heading "Re-med" [level=1] [ref=e8]
+          - paragraph [ref=e9]: Residência Médica
+      - link "Suporte" [ref=e10] [cursor=pointer]:
+        - /url: https://wa.me/5521993528752?text=Ol%C3%A1%2C%20estava%20no%20portal%20do%20cliente%20e%20estou%20com%20algumas%20dificuldades%2C%20poderia%20me%20ajudar%3F
+        - img [ref=e11]
+        - text: Suporte
+    - generic [ref=e14]:
+      - button "Simulador" [ref=e15]:
+        - img [ref=e16]
+        - text: Simulador
+      - button "Busca de Residência" [ref=e18]:
+        - img [ref=e19]
+        - text: Busca de Residência
+    - main [ref=e21]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - heading "Simulador de Aprovação" [level=2] [ref=e25]
+          - paragraph [ref=e26]: Descubra suas chances na residência médica com dados reais do SUS-SP
+          - generic [ref=e27]: SUS-SP · Programa Disponível
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - generic [ref=e32]: Passo 2 de 3
+            - button "Nova Simulação" [ref=e130]
+          - list [ref=e38]:
+            - listitem [ref=e39]:
+              - button "Dados da Simulação Selecione a especialidade e insira sua nota" [ref=e131] [cursor=pointer]:
+                - img [ref=e132]
+                - generic [ref=e43]:
+                  - paragraph [ref=e44]: Dados da Simulação
+                  - paragraph [ref=e45]: Selecione a especialidade e insira sua nota
+                - img [ref=e134]
+            - listitem [ref=e72]:
+              - button "2 Resultado da Aprovação Análise de probabilidade e ranking" [ref=e73]:
+                - generic [ref=e75]: "2"
+                - generic [ref=e76]:
+                  - paragraph [ref=e77]: Resultado da Aprovação
+                  - paragraph [ref=e78]: Análise de probabilidade e ranking
+                - img [ref=e137]
+              - generic [ref=e140]:
+                - generic [ref=e141]:
+                  - img [ref=e143]
+                  - heading "Provável Aprovação!" [level=3] [ref=e145]
+                  - paragraph [ref=e146]: Nota 75 · 1ª Chamada · Cardiologia
+                  - generic [ref=e147]: 1ª Chamada
+                - generic [ref=e148]:
+                  - img [ref=e149]
+                  - generic [ref=e151]:
+                    - paragraph [ref=e152]: "Probabilidade: Muito Alta"
+                    - paragraph [ref=e153]: 1ª Chamada
+                - generic [ref=e154]:
+                  - generic [ref=e155]:
+                    - generic [ref=e156]:
+                      - img [ref=e157]
+                      - text: Sua Posição
+                    - generic [ref=e159]: 1º
+                    - generic [ref=e160]: Top 11% da lista
+                  - generic [ref=e161]:
+                    - generic [ref=e162]:
+                      - img [ref=e163]
+                      - text: Nota de Corte
+                    - generic [ref=e165]: "50"
+                    - generic [ref=e166]: Última nota aprovada
+                  - generic [ref=e167]:
+                    - generic [ref=e168]:
+                      - img [ref=e169]
+                      - text: Concorrência
+                    - generic [ref=e171]: 12.875:1
+                    - generic [ref=e172]: 206 inscritos
+                  - generic [ref=e173]:
+                    - generic [ref=e174]:
+                      - img [ref=e175]
+                      - text: Vagas
+                    - generic [ref=e177]: "16"
+                    - generic [ref=e178]: 7 selecionados
+                - generic [ref=e179]:
+                  - generic [ref=e180]:
+                    - generic [ref=e181]: 1º
+                    - generic [ref=e182]: "Corte: 7º"
+                    - generic [ref=e183]: 9º
+                  - paragraph [ref=e187]: Você está na posição 1º de 9 candidatos
+                - button "Simular por Instituição" [ref=e188]:
+                  - img [ref=e189]
+                  - text: Simular por Instituição
+                  - img [ref=e191]
+            - listitem [ref=e79]:
+              - button "3 Simulação por Instituição Escolha onde deseja concorrer" [disabled] [ref=e80]:
+                - generic [ref=e82]: "3"
+                - generic [ref=e83]:
+                  - paragraph [ref=e84]: Simulação por Instituição
+                  - paragraph [ref=e85]: Escolha onde deseja concorrer
+        - paragraph [ref=e87]: "Novos programas em breve: USP, UNIFESP, ENARE e mais"
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - paragraph [ref=e91]: "50"
+        - paragraph [ref=e92]: Especialidades
+      - generic [ref=e94]:
+        - paragraph [ref=e95]: "13.354"
+        - paragraph [ref=e96]: Candidatos
+      - generic [ref=e98]:
+        - paragraph [ref=e99]: "1.403"
+        - paragraph [ref=e100]: Vagas SUS-SP
+    - contentinfo [ref=e101]:
+      - paragraph [ref=e102]: Dados baseados no edital SUS-SP 2025 · Simulação com fins educacionais
+      - link "Contatar o Suporte" [ref=e103] [cursor=pointer]:
+        - /url: https://wa.me/5521993528752?text=Ol%C3%A1%2C%20estava%20no%20portal%20do%20cliente%20e%20estou%20com%20algumas%20dificuldades%2C%20poderia%20me%20ajudar%3F
+        - img [ref=e104]
+        - text: Contatar o Suporte
+  - generic [ref=e110] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e111]:
+      - img [ref=e112]
+    - generic [ref=e115]:
+      - button "Open issues overlay" [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "0"
+          - generic [ref=e119]: "1"
+        - generic [ref=e120]: Issue
+      - button "Collapse issues badge" [ref=e121]:
+        - img [ref=e122]
+  - alert [ref=e124]

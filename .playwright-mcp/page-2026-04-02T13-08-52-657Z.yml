@@ -1,0 +1,116 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e5]
+        - generic [ref=e7]:
+          - heading "Re-med" [level=1] [ref=e8]
+          - paragraph [ref=e9]: Residência Médica
+      - link "Suporte" [ref=e10] [cursor=pointer]:
+        - /url: https://wa.me/5521993528752?text=Ol%C3%A1%2C%20estava%20no%20portal%20do%20cliente%20e%20estou%20com%20algumas%20dificuldades%2C%20poderia%20me%20ajudar%3F
+        - img [ref=e11]
+        - text: Suporte
+    - generic [ref=e14]:
+      - button "Simulador" [ref=e15]:
+        - img [ref=e16]
+        - text: Simulador
+      - button "Busca de Residência" [ref=e18]:
+        - img [ref=e19]
+        - text: Busca de Residência
+    - main [ref=e21]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - heading "Simulador de Aprovação" [level=2] [ref=e25]
+          - paragraph [ref=e26]: Descubra suas chances na residência médica com dados reais do SUS-SP
+          - generic [ref=e27]: SUS-SP · Programa Disponível
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - generic [ref=e32]: Passo 3 de 3
+            - button "Nova Simulação" [ref=e130]
+          - list [ref=e38]:
+            - listitem [ref=e39]:
+              - button "Dados da Simulação Selecione a especialidade e insira sua nota" [ref=e131] [cursor=pointer]:
+                - img [ref=e132]
+                - generic [ref=e43]:
+                  - paragraph [ref=e44]: Dados da Simulação
+                  - paragraph [ref=e45]: Selecione a especialidade e insira sua nota
+                - img [ref=e134]
+            - listitem [ref=e72]:
+              - button "Resultado da Aprovação Análise de probabilidade e ranking" [ref=e193] [cursor=pointer]:
+                - img [ref=e194]
+                - generic [ref=e76]:
+                  - paragraph [ref=e77]: Resultado da Aprovação
+                  - paragraph [ref=e78]: Análise de probabilidade e ranking
+                - img [ref=e196]
+            - listitem [ref=e79]:
+              - button "3 Simulação por Instituição Escolha onde deseja concorrer" [ref=e80]:
+                - generic [ref=e82]: "3"
+                - generic [ref=e83]:
+                  - paragraph [ref=e84]: Simulação por Instituição
+                  - paragraph [ref=e85]: Escolha onde deseja concorrer
+                - img [ref=e199]
+              - generic [ref=e202]:
+                - paragraph [ref=e204]: "Cardiologia · Nota: 75 · Corte geral: 50"
+                - generic [ref=e205]:
+                  - heading "Selecione uma Instituição (2)" [level=4] [ref=e206]:
+                    - img [ref=e207]
+                    - text: Selecione uma Instituição (2)
+                  - generic [ref=e209]:
+                    - 'button "BP - BENEFICÊNCIA PORTUGUESA DE SÃO PAULO 6 vagas Corte: 50 Nota de Corte 50 Vagas 6 1ª Chamada" [active] [ref=e234]':
+                      - generic [ref=e211]:
+                        - img [ref=e213]
+                        - generic [ref=e215]:
+                          - paragraph [ref=e216]: BP - BENEFICÊNCIA PORTUGUESA DE SÃO PAULO
+                          - generic [ref=e217]:
+                            - generic [ref=e218]: 6 vagas
+                            - generic [ref=e219]: "Corte: 50"
+                        - img [ref=e220]
+                      - generic [ref=e235]:
+                        - generic [ref=e236]:
+                          - generic [ref=e237]:
+                            - paragraph [ref=e238]: Nota de Corte
+                            - paragraph [ref=e239]: "50"
+                          - generic [ref=e240]:
+                            - paragraph [ref=e241]: Vagas
+                            - paragraph [ref=e242]: "6"
+                        - generic [ref=e243]:
+                          - img [ref=e244]
+                          - text: 1ª Chamada
+                    - 'button "HOSPITAL SANTA MARCELINA 1 vaga Corte: 50" [ref=e222]':
+                      - generic [ref=e223]:
+                        - img [ref=e225]
+                        - generic [ref=e227]:
+                          - paragraph [ref=e228]: HOSPITAL SANTA MARCELINA
+                          - generic [ref=e229]:
+                            - generic [ref=e230]: 1 vaga
+                            - generic [ref=e231]: "Corte: 50"
+                        - img [ref=e232]
+        - paragraph [ref=e87]: "Novos programas em breve: USP, UNIFESP, ENARE e mais"
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - paragraph [ref=e91]: "50"
+        - paragraph [ref=e92]: Especialidades
+      - generic [ref=e94]:
+        - paragraph [ref=e95]: "13.354"
+        - paragraph [ref=e96]: Candidatos
+      - generic [ref=e98]:
+        - paragraph [ref=e99]: "1.403"
+        - paragraph [ref=e100]: Vagas SUS-SP
+    - contentinfo [ref=e101]:
+      - paragraph [ref=e102]: Dados baseados no edital SUS-SP 2025 · Simulação com fins educacionais
+      - link "Contatar o Suporte" [ref=e103] [cursor=pointer]:
+        - /url: https://wa.me/5521993528752?text=Ol%C3%A1%2C%20estava%20no%20portal%20do%20cliente%20e%20estou%20com%20algumas%20dificuldades%2C%20poderia%20me%20ajudar%3F
+        - img [ref=e104]
+        - text: Contatar o Suporte
+  - generic [ref=e110] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e111]:
+      - img [ref=e112]
+    - generic [ref=e115]:
+      - button "Open issues overlay" [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "0"
+          - generic [ref=e119]: "1"
+        - generic [ref=e120]: Issue
+      - button "Collapse issues badge" [ref=e121]:
+        - img [ref=e122]
+  - alert [ref=e124]

@@ -1,0 +1,240 @@
+[    1289ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[    1368ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[    1456ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndMaybeFocusHandler cacheNode={{rsc:{...}, ...}}>
+        <InnerScrollAndFocusHandlerOld focusAndScrollRef={{scrollRef:null, ...}} cacheNode={{rsc:{...}, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="simulador/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/simulador" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="simulador/...">
+                        <SegmentTrieNode>
+                        <SimuladorPage>
+                          <SimulatorClient especialidades={[...]} specialtyOverview={[...]}>
+                            <div className="min-h-dvh ...">
+                              <header className="bg-[#00968...">
+                                <div>
+                                <a
+                                  href="https://wa.me/5521993528752?text=Ol%C3%A1%2C%20estava%20no%20portal%20do%20cli..."
+                                  target="_blank"
+                                  rel="noopener noreferrer"
++                                 className={"flex items-center gap-1.5 bg-white/15 hover:bg-white/25 transition-colo..."}
+-                                 className="flex items-center gap-1.5 bg-white/15 hover:bg-white/25 transition-colors..."
+                                >
+                              <div>
+                              ...
+                                <div className="mt-3 pl-3 ...">
+                                  <SimulatorForm especialidades={[...]} onResult={function handleResult}>
+                                    <form onSubmit={function handleSubmit} className="space-y-5">
+                                      <div className="relative">
+                                        <label>
+                                        <div className="relative">
+                                          <FaStethoscope>
+                                          <input
+                                            type="text"
+                                            placeholder="Busque sua especialidade..."
+                                            value=""
+                                            onChange={function SimulatorForm[<input>.onChange]}
+                                            onFocus={function SimulatorForm[<input>.onFocus]}
+                                            onBlur={function SimulatorForm[<input>.onBlur]}
++                                           className={"w-full pl-9 pr-4 py-3 rounded-xl border-2 border-[#B2DFDB] bg..."}
+-                                           className="w-full pl-9 pr-4 py-3 rounded-xl border-2 border-[#B2DFDB] bg-w..."
+                                          >
+                                      <div>
+                                      <div>
+                                        <label>
+                                        <div className="space-y-2">
+                                          <input>
+                                          <div className="flex items...">
+                                            <input
+                                              type="number"
+                                              min={0}
+                                              max={100}
+                                              step={0.5}
+                                              placeholder="Ex: 75"
+                                              value=""
+                                              onChange={function SimulatorForm[<input>.onChange]}
++                                             className={"w-full px-4 py-3 rounded-xl border-2 border-[#B2DFDB] bg-wh..."}
+-                                             className="w-full px-4 py-3 rounded-xl border-2 border-[#B2DFDB] bg-whit..."
+                                            >
+                                            ...
+                                      <button
+                                        type="submit"
+                                        disabled={false}
++                                       className={"w-full py-3.5 rounded-xl bg-[#009688] text-white font-bold text-b..."}
+-                                       className="w-full py-3.5 rounded-xl bg-[#009688] text-white font-bold text-bas..."
+                                      >
+                              <div>
+                              <footer className="px-4 py-3 ...">
+                                <p>
+                                <a
+                                  href="https://wa.me/5521993528752?text=Ol%C3%A1%2C%20estava%20no%20portal%20do%20cli..."
+                                  target="_blank"
+                                  rel="noopener noreferrer"
++                                 className={"inline-flex items-center gap-1.5 mt-2 text-xs font-semibold text-[#0096..."}
+-                                 className="inline-flex items-center gap-1.5 mt-2 text-xs font-semibold text-[#009688..."
+                                >
+                      ...
+                    ...
+          ...
+ @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:3272
+[    7330ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[    7839ms] [LOG] [Fast Refresh] done in 615ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[   18491ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[   18559ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[   96261ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[   96278ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  105091ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  105133ms] [LOG] [Fast Refresh] done in 142ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  139332ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  139388ms] [LOG] [Fast Refresh] done in 157ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  140502ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  140519ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  163429ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  163430ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  172591ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  172593ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  182721ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  182723ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  187820ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  187821ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  231461ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  231497ms] [LOG] [Fast Refresh] done in 140ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  239991ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  239994ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  256751ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  256755ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  272051ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  272115ms] [LOG] [Fast Refresh] done in 172ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  314472ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  314524ms] [LOG] [Fast Refresh] done in 154ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  325191ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  325209ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  334081ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  334086ms] [LOG] [Fast Refresh] done in 112ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  362923ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  362939ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  514024ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  514745ms] [LOG] [Fast Refresh] done in 786ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  520017ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  520126ms] [LOG] [Fast Refresh] done in 188ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  525562ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  525655ms] [LOG] [Fast Refresh] done in 171ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  532225ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  532301ms] [LOG] [Fast Refresh] done in 157ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  538533ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  538691ms] [LOG] [Fast Refresh] done in 224ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  543848ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  543956ms] [LOG] [Fast Refresh] done in 183ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  588496ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  588538ms] [LOG] [Fast Refresh] done in 143ms @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  589333ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  589356ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:2431
+[  589409ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndMaybeFocusHandler cacheNode={{rsc:{...}, ...}}>
+        <InnerScrollAndFocusHandlerOld focusAndScrollRef={{scrollRef:null, ...}} cacheNode={{rsc:{...}, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="simulador/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/simulador" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="simulador/...">
+                        <SegmentTrieNode>
+                        <SimuladorPage>
+                          <SimulatorClient especialidades={[...]} specialtyOverview={[...]}>
+                            <div className="min-h-dvh ...">
+                              <header className="bg-[#00968...">
+                                <div>
+                                <a
+                                  href="https://wa.me/5521993528752?text=Ol%C3%A1%2C%20estava%20no%20portal%20do%20cli..."
+                                  target="_blank"
+                                  rel="noopener noreferrer"
++                                 className={"flex items-center gap-1.5 bg-white/15 hover:bg-white/25 transition-colo..."}
+-                                 className="flex items-center gap-1.5 bg-white/15 hover:bg-white/25 transition-colors..."
+                                >
+                              <div>
+                              ...
+                                <div className="mt-3 pl-3 ...">
+                                  <SimulatorForm especialidades={[...]} onResult={function handleResult}>
+                                    <form onSubmit={function handleSubmit} className="space-y-5">
+                                      <div className="relative">
+                                        <label>
+                                        <div className="relative">
+                                          <FaStethoscope>
+                                          <input
+                                            type="text"
+                                            placeholder="Busque sua especialidade..."
+                                            value=""
+                                            onChange={function SimulatorForm[<input>.onChange]}
+                                            onFocus={function SimulatorForm[<input>.onFocus]}
+                                            onBlur={function SimulatorForm[<input>.onBlur]}
++                                           className={"w-full pl-9 pr-4 py-3 rounded-xl border-2 border-[#B2DFDB] bg..."}
+-                                           className="w-full pl-9 pr-4 py-3 rounded-xl border-2 border-[#B2DFDB] bg-w..."
+                                          >
+                                      <div>
+                                      <div>
+                                        <label>
+                                        <div className="space-y-2">
+                                          <input>
+                                          <div className="flex items...">
+                                            <input
+                                              type="number"
+                                              min={0}
+                                              max={100}
+                                              step={0.5}
+                                              placeholder="Ex: 75"
+                                              value=""
+                                              onChange={function SimulatorForm[<input>.onChange]}
++                                             className={"w-full px-4 py-3 rounded-xl border-2 border-[#B2DFDB] bg-wh..."}
+-                                             className="w-full px-4 py-3 rounded-xl border-2 border-[#B2DFDB] bg-whit..."
+                                            >
+                                            ...
+                                      <button
+                                        type="submit"
+                                        disabled={false}
++                                       className={"w-full py-3.5 rounded-xl bg-[#009688] text-white font-bold text-b..."}
+-                                       className="w-full py-3.5 rounded-xl bg-[#009688] text-white font-bold text-bas..."
+                                      >
+                              <div>
+                              <footer className="px-4 py-3 ...">
+                                <p>
+                                <a
+                                  href="https://wa.me/5521993528752?text=Ol%C3%A1%2C%20estava%20no%20portal%20do%20cli..."
+                                  target="_blank"
+                                  rel="noopener noreferrer"
++                                 className={"inline-flex items-center gap-1.5 mt-2 text-xs font-semibold text-[#0096..."}
+-                                 className="inline-flex items-center gap-1.5 mt-2 text-xs font-semibold text-[#009688..."
+                                >
+                      ...
+                    ...
+          ...
+ @ http://localhost:3000/_next/static/chunks/0ogl_next_dist_0rsq43m._.js:3272
