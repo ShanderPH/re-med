@@ -191,7 +191,7 @@ export function SimuladorTab({ especialidades }: Props) {
       {/* Coming soon notice */}
       <div className="text-center">
         <p className="text-xs text-gray-400 bg-white/60 rounded-xl px-4 py-2.5 border border-[#B2DFDB]/40 inline-block">
-          Novos programas em breve: USP, UNIFESP, ENARE e mais
+          Novos programas em breve: USP, UNIFESP, ENARE e mais · Selecione SCMSP 2026 acima
         </p>
       </div>
     </div>
